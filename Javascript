@@ -1,0 +1,11 @@
+function showDetails(product) {
+let description = "";
+if (product === "foundation") {
+description = "Foundation är en basprodukt som används för att jämna ut hudtonen och
+ge en jämn och naturlig finish.”;
+} else if (product === "lipstick") {
+description = "Läppstift ger färg och lyster till läpparna. Finns i olika färger.";
+} else if (product === "mascara") {
+description = "Mascara används för att ge volym och längd åt fransarna.”;
+}
+document.getElementById("product-description").innerText = description;
